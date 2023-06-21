@@ -1,0 +1,22 @@
+.nav_head .nav_list .nav_list_item a {
+  padding-bottom: 5px;
+  transition: 0.4s all ease-in-out;
+  position: relative;
+}
+.nav_head .nav_list .nav_list_item a::before {
+  content: "";
+  width: 0;
+  height: 1px;
+  bottom: 0;
+  position: absolute;
+  left: auto;
+  right: 0;
+  z-index: -1;
+  transition: width 0.5s cubic-bezier(0.25, 0.8, 0.25, 1) 0s;
+  background: #000;
+}
+.nav_head .nav_list .nav_list_item a:hover::before{
+    width: 100%;
+    left: 0;
+    right: auto;
+}

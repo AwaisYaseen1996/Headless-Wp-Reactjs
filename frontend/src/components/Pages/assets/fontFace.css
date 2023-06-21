@@ -1,0 +1,30 @@
+@font-face {
+    font-family: 'Tilt_Regular';
+    src: url('./Fonts/Tilt_Prism/TiltPrism-Regular.ttf'),
+    url('./Fonts/Tilt_Prism/TiltPrism-Regular.woff');
+}
+
+@font-face {
+    font-family: 'DancingScript_Bold';
+    src: url('./Fonts/Dancing_Script/DancingScript-Bold.ttf'),
+    url('./Fonts/Dancing_Script/DancingScript-Bold.woff');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'DancingScript_Medium';
+    src: url('./Fonts/Dancing_Script/DancingScript-Medium.ttf'),
+    url('./Fonts/Dancing_Script/DancingScript-Medium.woff');
+}
+
+@font-face {
+    font-family: 'DancingScript_SemiBold';
+    src: url('./Fonts/Dancing_Script/DancingScript-SemiBold.ttf'),
+    url('./Fonts/Dancing_Script/DancingScript-SemiBold.woff');
+}
+
+@font-face {
+    font-family: 'DancingScript_Regular';
+    src: url('./Fonts/Dancing_Script/DancingScript-Regular.ttf'),
+    url('./Fonts/Dancing_Script/DancingScript-Regular.woff');
+}
